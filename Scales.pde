@@ -5,7 +5,7 @@ void setup(){
 
 void draw(){
   for(int y = -10; y <=1000; y += 20){
-    for(int x = 1; x <= 1000; x+=20){
+    for(int x = -10; x <= 1000; x+=20){
       scale(x, y);
       double r = (double)Math.random()*255;
       double g = (double)Math.random()*10;
